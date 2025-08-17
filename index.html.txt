@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio [Nama Anda]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">[Nama Anda]</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Halo, saya <span class="highlight">[Nama Lengkap Anda]</span></h1>
+                <p class="subtitle">Seorang Web Developer & Mahasiswa dari Bandung.</p>
+                <p>Selamat datang di portofolio digital saya. Mari bangun sesuatu yang luar biasa bersama. Dirgahayu Republik Indonesia!</p>
+                <a href="#projects" class="cta-button">Lihat Karya Saya</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>
+                Saya adalah seorang mahasiswa dengan hasrat tinggi untuk pengembangan web dan teknologi. Saya menikmati proses mengubah ide-ide kompleks menjadi aplikasi web yang sederhana dan intuitif. Saat ini saya sedang fokus mendalami teknologi Front-End seperti React dan Vue.js.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Proyek Unggulan Saya</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250.png?text=Proyek+Satu" alt="Gambar Proyek 1">
+                    <h3>Visualisasi Data Pahlawan Nasional</h3>
+                    <p>Sebuah aplikasi web interaktif yang menampilkan data pahlawan nasional Indonesia. Dibuat dengan semangat 17 Agustus menggunakan Chart.js.</p>
+                    <a href="#" class="project-link">Lihat Proyek &rarr;</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250.png?text=Proyek+Dua" alt="Gambar Proyek 2">
+                    <h3>Aplikasi Catatan Belajar</h3>
+                    <p>Aplikasi untuk membantu mahasiswa mengatur jadwal dan materi perkuliahan. Dibangun menggunakan HTML, CSS, dan Vanilla JavaScript.</p>
+                    <a href="#" class="project-link">Lihat Proyek &rarr;</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250.png?text=Proyek+Tiga" alt="Gambar Proyek 3">
+                    <h3>Website Landing Page UMKM Kopi</h3>
+                    <p>Desain dan implementasi landing page untuk sebuah UMKM kopi lokal di Bandung, fokus pada desain yang responsif dan menarik.</p>
+                    <a href="#" class="project-link">Lihat Proyek &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <p>Tertarik untuk berkolaborasi atau sekadar menyapa? Jangan ragu untuk menghubungi saya!</p>
+            <p>Email: <a href="mailto:emailanda@contoh.com">emailanda@contoh.com</a></p>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> [Nama Anda]. Dibuat dengan semangat di Bandung.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
